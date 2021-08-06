@@ -15,10 +15,12 @@ Currently, if you refresh the page a few times, the list of companies just grows
 As a first step, prevent any duplicate items (by id) from being saved.
 
 ### Step 2: More properties
+Companies have an id, a name and a health status.
+The health status is a number between 1-10 indicating how happy the customer is, where 10 is very happy.
+
 Add three new properties to the company object.
 
 - value: this is how much the customer is paying ($100-$1000).
-- health: this is a number 1-10 indicating how happy the customer is, where 10 is very happy.
 - user count: this is the number of users at the company (values in the range 1-15)
 - industry: options are ['retail', 'pharma', 'logistics', 'manufacturing', hospitality].
 
